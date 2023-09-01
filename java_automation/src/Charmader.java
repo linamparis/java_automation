@@ -105,7 +105,8 @@ public class Charmader {
 
     //METODOS ADICIONALES
     public void  ataqueMarLlamas(Bulbasaur rival, int dano){
-          System.out.println((nombre + "ataca al pokemon" + rival.getNombre() + "y le causa" + dano = "No"));
+          System.out.println(nombre + "ataca al pokemon" + rival.getNombre() + "y le causa" + dano + "puntos de dano");
            rival.recibirDano(dano);
     }
+
 }

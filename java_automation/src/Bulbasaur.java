@@ -6,7 +6,7 @@ public class Bulbasaur {
     private String sexo;
     private String habilidad;
 
-    private String[] debilidades = {"Fuego","Psiquico","Volador","Hielo"};
+    private String[] debilidades;
 
     private boolean isDisponible = true;
     private int puntosVida = 100;
@@ -17,6 +17,10 @@ public class Bulbasaur {
         this.peso = peso;
         this.sexo = sexo;
         this.habilidad=habilidad;
+    }
+
+    public Bulbasaur(){
+
     }
 
     //GETTER Y SETTER
@@ -82,8 +86,8 @@ public class Bulbasaur {
         return debilidades;
     }
 
-    public void setDebilidades(String[] debilidades2) {
-        this.debilidades = debilidades2;
+    public void setDebilidades(String[] debilidades) {
+        this.debilidades = debilidades;
     }
 
     public int getPuntosVida() {
